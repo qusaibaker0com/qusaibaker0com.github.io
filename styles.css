@@ -116,7 +116,7 @@ h3 {
     line-height: 24px;
     font-weight: 400;
     margin: 6px 0;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .grey {
@@ -153,22 +153,26 @@ h3 {
     font-weight: 600;
     color: white;
     font-size: 16px;
-    margin-top: 16px;
+    margin: 16px 0;
     gap: 10px;
+}
+
+.contacts h3 span {
+    opacity: 0.5;
 }
 
 #wa-btn {
     height: fit-content;
     width: fit-content;
     padding: 5px 16px;
-    margin-top: 10px;
+    margin: 16px 0;
     display: flex;
     gap: 8px;
-    align-items: center;
+    align-items: flex-end;
     color: white;
     background-color: #25D366;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -177,6 +181,7 @@ h3 {
 }
 
 #wa-btn img {
+    align-self: center;
     width: 16px;
     height: 16px;
 }
