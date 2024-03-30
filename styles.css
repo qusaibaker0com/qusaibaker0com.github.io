@@ -380,6 +380,15 @@ h2::before {
     .tech-group {
         flex-direction: column;
     }
+
+    .about {
+        gap: 32px;
+    }
+
+    ul h2, .tech h2 {
+        margin-top: 32px;
+    }
+    
 }
 
 @media only screen and (max-width: 460px) {
